@@ -69,6 +69,6 @@ public class CowView extends JFrame {
         JOptionPane.showMessageDialog(this, message, "Error", JOptionPane.ERROR_MESSAGE);
     }
     public void displayReport(String report) {
-        resultLabel.setText(report); // หรืออาจจะใช้ JTextArea ถ้าต้องการแสดงผลหลายบรรทัด
+        resultLabel.setText(report); 
     }
 }
